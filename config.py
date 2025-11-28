@@ -81,13 +81,13 @@ gds.google.com	FALSE	/	TRUE	1753025749	OTZ	8135496_34_34__34_
 .mozilla.org	TRUE	/	FALSE	1750433863	_gat	1
 """
 
-API_ID = int(getenv("API_ID", "22462679"))
-API_HASH = getenv("API_HASH", "f39e3d449b91507bf815c5ed9109d7e3")
+API_ID = int(getenv("API_ID", "24636235"))
+API_HASH = getenv("API_HASH", "5ce558e427b642de176c67a987fb9bb2")
 BOT_TOKEN = getenv("BOT_TOKEN", "7724660683:AAHxB3YvpwhOuR6B-JqEeH4TO-LeZwWHu98")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "7761529575").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "8271135071").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://azadmalakiya00_db:azadmalakiya_120@cluster0.toxfuht.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOG_GROUP = getenv("LOG_GROUP", "-1002984444951")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1003025704088"))
+LOG_GROUP = getenv("LOG_GROUP", "-1002767400687")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1003185865116"))
 BIN_CHANNEL = int(getenv("BIN_CHANNEL", "-1002987270793"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "3"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "10000"))
